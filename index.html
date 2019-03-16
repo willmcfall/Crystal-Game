@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="assets/script.js"></script>
+  <script src="assets/javascript/script.js"></script>
 </head>
 
 
@@ -45,14 +45,14 @@
           value of each crystal is hidden from you entil you click on it. Please press the start button below to start
           the game.
         </p>
-        <button type="button" class="btn btn-outline-primary">Start Button</button>
+        <button type="button" class="btn btn-outline-primary" id="start_button">Start Button</button>
         <br>
         <hr>
         <div>
-          <h2>
+          <h2 id="num_wins">
             Number of Wins:
           </h2>
-          <h2>
+          <h2 id="num_loses">
             Number of Loses:
           </h2>
           <br>
@@ -63,29 +63,29 @@
           <div class="row">
             <div class="col-sm">
               <img src="assets/images/Orange_Gem_300.png" class="hvr-wobble-to-top-right"
-                style="width:200px;height:auto;">
+                style="width:200px;height:auto;" id="gem_1">
             </div>
             <div class="col-sm">
               <img src="assets/images/Green_Gem_350.png" class="hvr-wobble-to-top-right"
-                style="width:200px;height:auto;">
+                style="width:200px;height:auto;" id="gem_2">
             </div>
             <div class="col-sm">
               <img src="assets/images/Blue_Gem_350.png" class="hvr-wobble-to-top-right"
-                style="width:200px;height:auto;">
+                style="width:200px;height:auto;" id="gem_3">
             </div>
             <div class="col-sm">
               <img src="assets/images/Purple_Gem_350.png" class="hvr-wobble-to-top-right"
-                style="width:200px;height:auto;">
+                style="width:200px;height:auto;" id="gem_4">
             </div>
           </div>
         </div>
         <br>
         <br>
         <div>
-          <h2>
+          <h2 id="target_num">
             Number of Points Targeted:
           </h2>
-          <h2>
+          <h2 id="crystal_num">
             Number of Crystal Points:
           </h2>
           <br>
@@ -99,8 +99,6 @@
   </div>
 
 
-
-  <script src="assets/javascript/game.js"></script>
 </body>
 
 </html
